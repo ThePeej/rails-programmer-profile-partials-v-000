@@ -16,17 +16,5 @@
     <%= render partial: 'attribute', locals: {title: 'Quote', attribute:@programmer.quote} %>
     <%= render partial: 'attribute', locals: {title: 'Claim To Fame:', attribute:@programmer.claim_to_fame} %>
 
-    <p>
-    <strong>Quote:</strong> <%= @programmer.quote %><br>
-    </p>
-
-    <p>
-    <strong>Claim To Fame:</strong> <%= @programmer.claim_to_fame %>
-    </p>
-
-    <p>
-    <%= link_to "Learn more about #{@programmer.name}", @programmer.wikipedia_page, target: '_blank' %>
-    </p>
-
   </div>
 </div>
