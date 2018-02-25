@@ -13,6 +13,8 @@
   <div class="col-md-9 programmer-info">
 
     <%= render partial: 'attribute', locals: {title: 'Home Country:', attribute:@programmer.home_country} %>
+    <%= render partial: 'attribute', locals: {title: 'Quote', attribute:@programmer.quote} %>
+    <%= render partial: 'attribute', locals: {title: 'Home Country:', attribute:@programmer.home_country} %>
 
     <p>
     <strong>Quote:</strong> <%= @programmer.quote %><br>
